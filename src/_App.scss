@@ -1,0 +1,38 @@
+$side-width: 25rem;
+
+.timeline {
+  margin: 2rem;
+}
+
+.timeline__header {
+  position: relative;
+}
+
+.timeline__months {
+  margin-left: $side-width;
+}
+
+.timeline__days {
+  margin-left: $side-width;
+}
+
+.timeline__row {
+  display: flex;
+  height: auto;
+  padding: 1rem 0;
+}
+
+.row-group__wrapper {
+  display: flex;
+  margin: 2rem 0;
+  background-color: #c9c9c9;
+}
+
+.row-group__key {
+  width: $side-width / 2;
+  padding: 1rem;
+}
+
+.row-group__row-key {
+  width: $side-width / 2;
+}
